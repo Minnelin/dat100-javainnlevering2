@@ -27,12 +27,18 @@ class TabellerEnhetsTests {
 
 	@Test
 	void testSkrivUt() {
-
+		int[] tabell1 = {1,4,6};
+		int[] tabell2 = {1};
+		int[] tabell3 = {};
+		
 		Tabeller.skrivUt(tabell1);
 		Tabeller.skrivUt(tabell2);
 		Tabeller.skrivUt(tabell3);
 	}
 
+
+
+	
 	@Test
 	void testtilStreng() {
 

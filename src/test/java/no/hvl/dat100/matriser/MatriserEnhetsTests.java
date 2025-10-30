@@ -27,6 +27,7 @@ class MatriserEnhetsTests {
 		int[] b1 = {13,14,15};
 		int[] b2 = {16,17,18};
 		
+		
 		b = new int[3][];
 		
 		b[0] = b0;
